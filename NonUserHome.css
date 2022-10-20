@@ -1,0 +1,33 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    padding:50px;
+    width: auto;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 15px 2px #d88;
+    background: white;
+    position: relative
+}
+
+.Home > .button {
+    background: #d44;
+    border: 1px solid #d00;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 0.5rem;
+    margin: 50px;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+.Home > .text {
+    color: #d33;
+    font-size: 40px;
+    font-family: 'Courier New', monospace;
+}
